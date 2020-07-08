@@ -1,0 +1,90 @@
+#head {
+margin-top: 0;
+height: 60px;
+background-color: #F6C60A;	
+border-bottom: 1px solid #363332;
+text-align: center;
+padding: 5px;
+color: #363332;
+padding-bottom: 10px;
+font: 18px Verdana;	
+}
+
+p {
+text-align: center;
+}
+
+#tab {
+width: 1040px;
+margin: 20px auto;
+}
+
+table, table td {
+border: 1px solid black;
+border-collapse: collapse;	
+font: 14px Verdana;	
+vertical-align: middle;	
+}
+
+table {
+width: 500px;
+margin: 10px;
+float: left;	
+}
+
+#sep {
+
+background-color: #F36132;
+}
+
+#oct {
+
+background-color: #DC4A1B;
+}
+
+#nov {
+
+background-color: #CD3B0C;
+}
+
+#dec {
+background-color: #80FFFF;
+}
+
+#jan {
+
+background-color: #58D7D7;
+}
+
+#feb {
+
+background-color: #3DBCBC;
+}
+
+#mar {
+
+background-color: #80FF80;
+}
+
+#apr {
+
+background-color: #64E364;
+}
+
+#may {
+
+background-color: #53D253;
+}
+
+#jun {
+
+background-color: #FFFF80;
+}
+
+acronym {
+background-color: #F6C60A;
+cursor: pointer;	
+}
+.yel {
+background-color: #F6C60A;	
+}

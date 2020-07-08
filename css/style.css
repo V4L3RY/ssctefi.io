@@ -1,0 +1,176 @@
+body {
+background-image: url(../img/515.png);
+background-repeat: repeat;	
+font: 18px Verdana;
+padding: 0;
+margin: 0;
+}
+
+#wrapper {
+min-width: 800px;	
+}
+
+header {
+height: 75px;
+background-image: url(../img/header.jpg);
+background-color: #F6C60A;
+background-position: center;
+background-repeat: no-repeat;	
+margin: 0;
+border-bottom: 1px solid #363332;
+}
+
+#menu_header {
+height: 75px;
+font: 36px Verdana;
+color: #363332;	
+padding-left: 28px;
+}
+
+#menu {
+width: 270px;
+float: left;
+margin: 0 10px 0 0;	
+padding: 5px;
+border-right: 1px solid #363332;
+}
+
+#content_header {
+height: 75px;
+font: 36px Verdana;
+color: #363332;		
+}
+
+#content {
+height: 750px;
+margin: 0 auto;
+padding: 5px;
+overflow-y: scroll;	
+}
+
+footer {
+height: 75px;
+border-top: 1px solid #363332;
+font-size: 14px;
+padding-top: 5px;
+padding-left: 28px;
+}
+
+.clear {
+clear: left;	
+}
+
+#tefi_vk {
+height: 160px;
+width: 28px;
+position: fixed;
+top: 75px;
+left: 0;	
+}
+
+#tefi_in {
+height: 172px;
+width: 28px;
+position: fixed;
+top: 245px;
+left: 0;	
+}
+
+#tefi_yt {
+height: 208px;
+width: 28px;
+position: fixed;
+top: 427px;
+left: 0;	
+}
+
+ul {
+list-style-type: none;	
+font: 18px Verdana;
+padding-left: 28px;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+ul a {
+color: #363332;	
+text-decoration: none;
+}
+
+hr {
+height: 2px;
+background-color: #363332;	
+}
+
+#up {
+width: 70px;
+height: 100%;
+position: fixed;
+bottom: 0;
+right: 0;	
+cursor: url(../img/up.png), pointer;
+}
+
+#sch {
+text-align: center;
+padding-top: 15px;	
+}
+
+#hcon {
+height: 1px;	
+}
+
+#cont {
+border-bottom: 5px solid #F6C60A;
+margin: 10px auto;
+padding: 10px;
+}
+
+#newshead {
+font-weight: bold;
+}
+
+#main {
+height: 210px;
+width: 28px;
+position: fixed;
+top: 75px;
+left: 0;
+border: 1px solid #363332;
+border-left: none;	
+}
+
+#sport, #sport td{
+border: 1px solid black;
+border-collapse: collapse;	
+font: 14px Verdana;
+}
+
+#sport {
+margin: 0 auto;
+width: 970px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.yellow{
+background-color: #F6C60A;	
+}
+
+.white {
+background-color: white;
+}
+
+#sport th {
+border: none;	
+}
+
+.blue {
+background-color: #363332;
+color: white;
+}
+
+
