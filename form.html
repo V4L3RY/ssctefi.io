@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Заполнить анкету</title>
+	<meta http-equiv="Content-Type"  content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/style_form.css" type="text/css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="main"><a href="index.html"><img src="img/main.jpg" height="210" width="28"></a></div>
+	<header><h1>Если Вы хотите вступить в ССК ТЭФИ, заполните анкету</h1></header>
+	<div id="wrapper">
+		<form name="form" action="mailto:valera.larionov.2019@mail.ru?subject=ТЭФИ&body=Хаиль%20Гидра" method="POST" enctype="multipart/form-data">
+		<fieldset>
+		<legend>ФИО</legend>
+			<div>
+				<p><label for="sn" class="question">Фамилия: <label></p>
+				<p><input type="text" name="sname" id="sn" placeholder="Введите фамилию" class="input" ></p>
+			</div>
+			<div>
+				<p><label for="nm" class="question">Имя: <label></p>
+				<p><input type="text" name="name" id="n" placeholder="Введите имя" class="input" ></p>
+			</div>
+		<div>
+				<p><label for="mn" class="question">Отчество: <label></p>
+				<p><input type="text" name="mname" id="mn" placeholder="Введите отчество" class="input" ></p>
+			</div>
+		</fieldset>
+		<fieldset>
+		<legend>Личные данные</legend>
+		<div>
+			<p><label for="date" class="question">Дата рождения: </label></p>
+			<p><input type="date" name="date" id="date" class="input"></p>
+		</div>
+		<div>
+			<p><label for="group" class="question">Группа: </label></p>
+			<p><select id="group" name="group" size="1" ></p>
+					<option></option>
+					<option value="ASN16" >АСН-16</option>
+					<option value="ASN17" >АСН-17</option>
+					<option value="ASN18">АСН-18</option>
+					<option value="ASN19">АСН-19</option>
+					<option value="PSN16" >ПСН-16</option>
+					<option value="ASN17" >ПСН-17</option>
+					<option value="PSN18">ПСН-18</option>
+					<option value="PSN19">ПСН-19</option>
+					<option value="ED17" >ЭД-17</option>
+					<option value="ED18">ЭД-18</option>
+					<option value="ED19">ЭД-19</option>
+			</select>
+		</div>
+		</fieldset>
+		<fieldset>
+		<legend>Связь</legend>
+			<div>
+				<p><label for="vk" class="question">Id ВК: <label></p>
+				<p><input type="text" name="vk" id="vk" placeholder="(только то, что идет после vk.com/)" class="input" ></p>
+			</div>
+		</fieldset>
+		<div>
+			<input type="submit" value="Отправить" name="submit" id="submit" onclick="myFunction();">
+			<input type="reset" value="Сбросить" name="submit" id="reset">
+		</div>
+		</form>
+	</div>
+	<div id="ktefi"><video src="video/tefi.mp4" height="576" width="1024" controls></div>
+</body>
+</html>
